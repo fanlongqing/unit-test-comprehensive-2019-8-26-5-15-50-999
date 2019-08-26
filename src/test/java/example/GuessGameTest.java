@@ -44,7 +44,7 @@ public class GuessGameTest {
     @Test
     public void should_return_String_AB_when_input_and_answer() {
         //given
-        List<Integer> list=new ArrayList<Integer>();
+        //List<Integer> list=new ArrayList<Integer>();
 
         GuessInputToList guessInputToList=new GuessInputToList();
         String input="1 5 6 7";

@@ -22,6 +22,10 @@ public class GuessInputToList {
     public String sameCount(List<Integer> answer,List<Integer> input) {
     	int sameA=0;
     	int sameB=0;
+    	 if(input.equals(answer)) {
+    		   return "right";
+    		  }
+    	 else {
     	for (int i = 0; i < answer.size(); i++) {
 			for (int j = 0; j < input.size(); j++) {
 				if(answer.get(i)==input.get(j) && i==j) {
@@ -34,6 +38,5 @@ public class GuessInputToList {
 		}
     	return sameA+"A"+sameB+"B"; 
 	}
-
-
+ }
 }
